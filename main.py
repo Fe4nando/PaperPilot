@@ -17,7 +17,7 @@ def detect_grade(percentage):
         if percentage >= threshold:
             return grade
     return "U"
-
+st.set_page_config(page_title="Prompt Breaker - Gemini Flash", layout="centered")
 st.markdown("""
 <style>
 body {
