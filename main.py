@@ -3,6 +3,7 @@ import plotly.graph_objects as go
 
 # Grade thresholds
 grade_thresholds = {
+    "Distinction/Max":100,
     "A*": 90,
     "A": 80,
     "B": 70,
