@@ -169,11 +169,12 @@ fig.update_layout(
     width=1200,
     height=500  # adjust this number to your liking
 )
+
+# ------------- MAIN DISPLAY -------------
+st.plotly_chart(fig, use_container_width=False)
 st.markdown("""
     <hr style="margin-top: 50px; border: none; height: 1px; background-color: #333;">
     <div style='text-align: center; font-size: 0.8rem; color: #888; padding-bottom: 20px;'>
         © 2025 Quantora. All rights reserved. <br> Developed by Fernando Gabriel Morera.
     </div>
 """, unsafe_allow_html=True)
-# ------------- MAIN DISPLAY -------------
-st.plotly_chart(fig, use_container_width=False)
